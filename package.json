@@ -1,0 +1,22 @@
+{
+  "name": "visys",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "bin": {
+    "vi-cpu": "cpu.js",
+    "vicpu": "cpu.js",
+    "vi-mem": "mem.js",
+    "vimem": "mem.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "asciichart": "^1.5.25"
+  },
+  "devDependencies": {
+    "@types/asciichart": "^1.5.6",
+    "nodemon": "^2.0.15"
+  }
+}
