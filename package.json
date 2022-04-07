@@ -2,16 +2,29 @@
   "name": "visys",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "keywords": [],
+  "author": {
+    "name": "Beeno Tung",
+    "email": "aabbcc1241@yahoo.com.hk",
+    "url": "https://beeno-tung.surge.sh"
+  },
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/visys.git"
+  },
+  "homepage": "https://github.com/beenotung/visys#readme",
+  "bugs": {
+    "url": "https://github.com/beenotung/visys/issues"
+  },
+  "main": "cpu.js",
   "bin": {
     "vi-cpu": "cpu.js",
     "vicpu": "cpu.js",
     "vi-mem": "mem.js",
     "vimem": "mem.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {},
   "dependencies": {
     "asciichart": "^1.5.25"
   },
