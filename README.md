@@ -43,7 +43,8 @@ Sample output:
  14% ┼─────╯╰╯─╯─╰╯          ╰────╯╰╯╰╯─╯╯
   0% ┤
 ```
-![screenshot of vi-cpu output showing multiple cpu cores usage with colorful ascii-chart](docs/cpu.png "Each color represent a cpu core")
+
+![screenshot of vi-cpu output showing multiple cpu cores usage with colorful ascii-chart](docs/cpu.png 'Each color represent a cpu core')
 
 ## Keyboard Shortcuts
 
