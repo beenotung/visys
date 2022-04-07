@@ -1,13 +1,20 @@
 {
   "name": "visys",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "author": {
-    "name": "Beeno Tung",
-    "email": "aabbcc1241@yahoo.com.hk",
-    "url": "https://beeno-tung.surge.sh"
-  },
+  "description": "Visualize system resources",
+  "keywords": [
+    "visualize",
+    "usage",
+    "cli",
+    "monitor",
+    "cpu",
+    "memory",
+    "vi-cpu",
+    "vi-mem",
+    "vicpu",
+    "vimem"
+  ],
+  "author": "Beeno Tung <aabbcc1241@yahoo.com.hk> (https://beeno-tung.surge.sh)",
   "license": "BSD-2-Clause",
   "repository": {
     "type": "git",
@@ -24,6 +31,9 @@
     "vi-mem": "mem.js",
     "vimem": "mem.js"
   },
+  "files": [
+    "*.js"
+  ],
   "scripts": {},
   "dependencies": {
     "asciichart": "^1.5.25"
