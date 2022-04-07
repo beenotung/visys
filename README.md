@@ -2,6 +2,8 @@
 
 Visualize system resources
 
+[![npm Package Version](https://img.shields.io/npm/v/visys.svg?maxAge=2592000)](https://www.npmjs.com/package/visys)
+
 ## Installation
 
 ```bash
