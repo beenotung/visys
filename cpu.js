@@ -75,12 +75,13 @@ function report() {
     for (let i = 0; i < n; i++) {
       let m = mem[i]
       let s = sample[i] || (sample[i] = [])
-      for (let w = 0; w < width; w++) {
+      for (let w = 0; w < width - 1; w++) {
         s[w] = m[Math.floor((w / width) * m.length)]
       }
       if (s.length > width) {
         sample[i] = s.slice(0, width)
       }
+      s[width - 1] = m[m.length - 1]
     }
     data = sample
     if (mem[0].length > maxLength) {

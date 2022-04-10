@@ -38,9 +38,10 @@ function report() {
   if (mem.length <= width) {
     data = mem
   } else {
-    for (let i = 0; i < width; i++) {
+    for (let i = 0; i < width - 1; i++) {
       sample[i] = mem[Math.floor((i / width) * mem.length)]
     }
+    sample[width - 1] = mem[mem.length - 1]
     if (sample.length > width) {
       sample = sample.slice(0, width)
     }
